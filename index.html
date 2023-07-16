@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weather Forecast APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter location..." spellcheck="false">
+            <button> <img src="./images/search-circle-outline.svg" alt="Search image"> </button>
+            <div class="error-msg">
+                <p>Couldn't Find. Please enter correct City/Country name.</p>
+            </div>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="./images/haze.png" alt="Cloud Image">
+            <h1 class="temp">12°C</h1>
+            <h2 class="city">Siraha</h2>
+            <div class="forecast">
+                <div class="pressure">
+                    <p>Pressure</p>
+                    <p>Pressure(atm):69pa</p>
+                </div>
+            </div>
+            <div class="details">
+                <div class="forecast">
+                    <img src="./images/humidityfall.png" alt="Image of humidity">
+                    <div>
+                        <p class="humidity">69%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="forecast">
+                    <img src="./images/windfall.png" alt="Image of wind ">
+                    <div>
+                        <p class="wind ">69KM/H</p>
+                        <p>Wind Speed</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
